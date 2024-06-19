@@ -1,0 +1,9 @@
+name: Build
+description: Build Packages
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Run Build
+      run: npm run build
+      shell: bash

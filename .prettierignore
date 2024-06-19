@@ -1,0 +1,11 @@
+# Ignore all files in the node_modules directory
+node_modules/
+
+# Ignore specific files or directories
+**/dist/**
+**/.next/**
+**/_next/**
+**/public/**
+.git
+.gitignore
+

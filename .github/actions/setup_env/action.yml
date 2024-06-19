@@ -1,0 +1,12 @@
+name: Setup Environment
+description: Essential Steps for Setting Up a Node.js Environment
+
+runs:
+  using: 'composite'
+  steps:
+    - uses: actions/setup-node
+      with:
+        node-version: 20
+        cache: 'npm'
+    - run: npm install
+      shell: bash

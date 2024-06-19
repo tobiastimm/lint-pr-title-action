@@ -1,0 +1,11 @@
+name: 'Lint Pull Request title Action'
+description: 'Lints the title of the pull request based on a commmitlint configuration'
+author: 'Tobias Timm'
+inputs:
+  config:
+    description: 'The path for the commitlint configuration'
+    required: false
+    default: './commitlint.config.js'
+runs:
+  using: 'node20'
+  main: 'index.js'
